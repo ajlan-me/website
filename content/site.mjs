@@ -186,5 +186,5 @@ export default {
   },
 
   // The photo used for the hero, social previews and structured data.
-  portraitSlug: 'ajlan-portrait-light-blue-shirt-grey-backdrop',
+  portraitSlug: 'muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop',
 };

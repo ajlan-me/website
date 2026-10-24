@@ -329,8 +329,8 @@ function polaroid(rel, p, { sizes, eager = false, cls = '', note = '', link = tr
 const statusLabel = { done: 'Done', 'in-progress': 'In progress', planned: 'Planned' };
 
 // ── pages ──────────────────────────────────────────────────────────────────
-const sideL = bySlug['ajlan-portrait-black-t-shirt-neon-sign'];
-const sideR = bySlug['ajlan-portrait-white-t-shirt-window-light'];
+const sideL = bySlug['muhammed-ajlan-portrait-black-t-shirt-neon-sign'];
+const sideR = bySlug['muhammed-ajlan-portrait-white-t-shirt-window-light'];
 
 // Home
 pages.push({
@@ -583,8 +583,8 @@ pages.push({
 const cats = [...new Set(photos.map((p) => p.category))];
 pages.push({
   path: '/gallery/',
-  title: `Photos of ${site.name} — Gallery`,
-  description: `Photo gallery of ${site.name}, ${site.role.toLowerCase()}: portraits and moments from building Navora in Kerala. Each photo has its own page with a caption.`,
+  title: `Photos of ${site.name} (Muhammad Ajlan) — Gallery`,
+  description: `Photo gallery of ${site.name} (Muhammad Ajlan), ${site.role.toLowerCase()}: portraits and moments from building Navora in Kerala. Each photo has its own page with a caption.`,
   ogImage: portrait,
   jsonld: ctx(
     {
@@ -601,7 +601,7 @@ pages.push({
   <header class="page-head">
     <p class="kicker">just photos</p>
     <h1 class="display">Gallery</h1>
-    <p class="lede">Photos of me and of the work behind Navora. Tap a photo to view it larger; every photo also has its own page.</p>
+    <p class="lede">Photos of me, Muhammed Ajlan, and of the work behind Navora. Tap a photo to view it larger; every photo also has its own page.</p>
   </header>
   ${
     cats.length > 1

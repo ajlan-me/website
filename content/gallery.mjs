@@ -26,9 +26,9 @@
 
 export default [
   {
-    slug: 'ajlan-portrait-light-blue-shirt-grey-backdrop',
+    slug: 'muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop',
     title: 'Muhammed Ajlan in a light blue shirt',
-    alt: 'Muhammed Ajlan, founder of Navora, in a light blue button-down shirt against a plain light grey backdrop',
+    alt: 'Muhammed Ajlan (Muhammad Ajlan), founder of Navora, in a light blue button-down shirt against a plain light grey backdrop',
     caption: 'Studio portrait in a light blue shirt.',
     description:
       'Head-and-shoulders portrait of Muhammed Ajlan, founder of Navora, wearing a light blue button-down shirt, photographed against a plain light grey studio backdrop.',
@@ -42,7 +42,7 @@ export default [
     featured: true,
   },
   {
-    slug: 'ajlan-portrait-black-t-shirt-neon-sign',
+    slug: 'muhammed-ajlan-portrait-black-t-shirt-neon-sign',
     title: 'Muhammed Ajlan in a black T-shirt with a neon sign',
     alt: 'Muhammed Ajlan in a black T-shirt standing in front of a dark wall, with a warm glowing neon script sign behind him',
     caption: 'Black T-shirt, dark wall, warm neon glow.',
@@ -58,7 +58,7 @@ export default [
     featured: true,
   },
   {
-    slug: 'ajlan-portrait-white-t-shirt-window-light',
+    slug: 'muhammed-ajlan-portrait-white-t-shirt-window-light',
     title: 'Muhammed Ajlan in a white T-shirt in window light',
     alt: 'Muhammed Ajlan in an oversized white T-shirt against a white wall, with soft window light and shadows across the wall',
     caption: 'White on white, with window light.',

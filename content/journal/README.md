@@ -16,7 +16,7 @@ draft: false
 
 Your post, written in Markdown.
 
-![Alt text describing the photo](/images/ajlan-portrait-white-t-shirt-window-light.jpg)
+![Alt text describing the photo](/images/muhammed-ajlan-portrait-white-t-shirt-window-light.jpg)
 ```
 
 Posts with `draft: true` are never published. This README is ignored by the build.
