@@ -27,11 +27,11 @@
 export default [
   {
     slug: 'ajlan-portrait-light-blue-shirt-grey-backdrop',
-    title: 'Ajlan in a light blue shirt',
-    alt: 'Ajlan, founder of Navora, in a light blue button-down shirt against a plain light grey backdrop',
+    title: 'Muhammed Ajlan in a light blue shirt',
+    alt: 'Muhammed Ajlan, founder of Navora, in a light blue button-down shirt against a plain light grey backdrop',
     caption: 'Studio portrait in a light blue shirt.',
     description:
-      'Head-and-shoulders portrait of Ajlan, founder of Navora, wearing a light blue button-down shirt, photographed against a plain light grey studio backdrop.',
+      'Head-and-shoulders portrait of Muhammed Ajlan, founder of Navora, wearing a light blue button-down shirt, photographed against a plain light grey studio backdrop.',
     category: 'Portraits',
     date: null,
     credit: null, // TODO
@@ -43,11 +43,11 @@ export default [
   },
   {
     slug: 'ajlan-portrait-black-t-shirt-neon-sign',
-    title: 'Ajlan in a black T-shirt with a neon sign',
-    alt: 'Ajlan in a black T-shirt standing in front of a dark wall, with a warm glowing neon script sign behind him',
+    title: 'Muhammed Ajlan in a black T-shirt with a neon sign',
+    alt: 'Muhammed Ajlan in a black T-shirt standing in front of a dark wall, with a warm glowing neon script sign behind him',
     caption: 'Black T-shirt, dark wall, warm neon glow.',
     description:
-      'Portrait of Ajlan in a plain black T-shirt against a dark background, with a warm white neon script sign glowing behind his head.',
+      'Portrait of Muhammed Ajlan in a plain black T-shirt against a dark background, with a warm white neon script sign glowing behind his head.',
     category: 'Portraits',
     date: null,
     credit: null, // TODO
@@ -59,11 +59,11 @@ export default [
   },
   {
     slug: 'ajlan-portrait-white-t-shirt-window-light',
-    title: 'Ajlan in a white T-shirt in window light',
-    alt: 'Ajlan in an oversized white T-shirt against a white wall, with soft window light and shadows across the wall',
+    title: 'Muhammed Ajlan in a white T-shirt in window light',
+    alt: 'Muhammed Ajlan in an oversized white T-shirt against a white wall, with soft window light and shadows across the wall',
     caption: 'White on white, with window light.',
     description:
-      'Portrait of Ajlan wearing an oversized white T-shirt, photographed against a white wall with soft window light and diagonal shadows.',
+      'Portrait of Muhammed Ajlan wearing an oversized white T-shirt, photographed against a white wall with soft window light and diagonal shadows.',
     category: 'Portraits',
     date: null,
     credit: null, // TODO

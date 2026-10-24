@@ -268,7 +268,7 @@ function socialList(rel, { compact = false } = {}) {
 }
 
 // ── structured data ────────────────────────────────────────────────────────
-const sameAs = [site.links.linkedin, site.links.instagram, site.links.x, site.links.github].filter(Boolean);
+const sameAs = [site.links.linkedin, site.links.instagram, site.links.x, site.links.github, site.links.portfolio].filter(Boolean);
 const personLd = {
   '@type': 'Person',
   '@id': abs('/#person'),
@@ -285,7 +285,7 @@ const personLd = {
     addressRegion: site.location.region,
     addressCountry: site.location.countryCode,
   },
-  knowsAbout: ['UI/UX design', 'Web development', 'Brand identity', 'Local commerce'],
+  knowsAbout: ['UI/UX design', 'Web development', 'Flutter', 'Mobile app development', 'Brand identity', 'Quick commerce', 'Local commerce'],
   ...(sameAs.length ? { sameAs } : {}),
 };
 const websiteLd = { '@type': 'WebSite', '@id': abs('/#website'), url: abs('/'), name: site.name, inLanguage: 'en-IN', publisher: { '@id': abs('/#person') } };
@@ -336,7 +336,7 @@ const sideR = bySlug['ajlan-portrait-white-t-shirt-window-light'];
 pages.push({
   path: '/',
   title: `${site.name} — ${site.role}`,
-  description: `${site.name} is a founder from ${site.location.region}, India, building Navora, a local commerce app starting in Manjeri. Work, photos and founder updates.`,
+  description: `${site.name} (Muhammad Ajlan) is a founder, UI/UX designer and Flutter developer from ${site.location.region}, India, building Navora, a quick-commerce app for local shops starting in Manjeri. Work, photos and founder updates.`,
   bodyClass: 'home',
   ogImage: portrait,
   jsonld: ctx(websiteLd, personLd, { '@type': 'ProfilePage', '@id': abs('/#webpage'), url: abs('/'), name: `${site.name} — ${site.role}`, mainEntity: { '@id': abs('/#person') }, isPartOf: { '@id': abs('/#website') } }),

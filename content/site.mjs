@@ -14,9 +14,12 @@ export default {
   // change to your own domain later, e.g. "https://ajlan.in".
   siteUrl: 'https://ajlan-me.github.io/website',
 
-  name: 'Ajlan',
-  // Shown only in structured data (alternateName), never in headings.
-  fullName: 'Muhammed Ajlan',
+  // Full name: used in titles, headings and structured data so Google
+  // connects searches for "Muhammed Ajlan" with this site.
+  name: 'Muhammed Ajlan',
+  // Other names people search for. Structured data (alternateName) only,
+  // plus one mention in the home page description.
+  fullName: ['Ajlan', 'Muhammad Ajlan'],
 
   // Change to 'Founder & CEO of Navora' once confirmed. Used everywhere.
   role: 'Founder of Navora',
@@ -32,7 +35,7 @@ export default {
 
   // Home page introduction (2–3 sentences).
   intro:
-    "I'm Ajlan, a founder from Kerala. I'm building Navora, an app that connects people with the local shops around them. This site is where I share my work, my photos and what I learn along the way.",
+    "I'm Muhammed Ajlan, a founder from Kerala. I'm building Navora, an app that connects people with the local shops around them. This site is where I share my work, my photos and what I learn along the way.",
 
   // Small handwritten notes. Keep them short.
   notes: {
@@ -46,7 +49,7 @@ export default {
     // Each string is one paragraph. Written from details you shared earlier.
     // Please read and adjust anything that doesn't sound like you.
     story: [
-      "I'm Ajlan, and I'm building Navora from Kerala.",
+      "I'm Muhammed Ajlan (most people call me Ajlan), and I'm building Navora from Kerala.",
       'I started out in design. Since 2024 I have worked as a freelance graphic designer and web designer: logos and brand identities, posters and social media creatives, and responsive websites for businesses and startups. That work turned out to be a good base for starting a company, because at the beginning you are the designer, the developer and the person explaining what you are building.',
       "Navora is a marketplace app that connects local stores and brands with the customers around them. I'm building it on my own for now: designing the customer, store and rider apps and writing the code behind them.",
     ],
