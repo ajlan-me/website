@@ -1,0 +1,28 @@
+{
+  "name": "ajlan-website",
+  "version": "1.0.0",
+  "description": "Ajlan \u2014 Founder of Navora. Personal site.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:prod": "SITE_ENV=production node scripts/build.mjs",
+    "preview": "npm run build && npx --yes serve dist -l 4321",
+    "test": "node scripts/test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajlan-me/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajlan-me/website/issues"
+  },
+  "homepage": "https://github.com/ajlan-me/website#readme",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "marked": "^14.1.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
