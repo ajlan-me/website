@@ -202,6 +202,7 @@ function layout(pg) {
 <link rel="canonical" href="${canonical}">
 <meta name="robots" content="${robots}">
 <meta name="author" content="${esc(site.name)}">
+<meta name="google-site-verification" content="Qxwxf12pT1KCfuWjzEjx7NPN6ptTuyLMgBP0CEC1IKo">
 <meta name="theme-color" content="#F6F2EA">
 <meta property="og:type" content="${pg.ogType || 'website'}">
 <meta property="og:site_name" content="${esc(site.name)}">
@@ -785,6 +786,8 @@ await fs.writeFile(path.join(OUT, '404.html'), html404);
 await fs.mkdir(path.join(OUT, 'assets'), { recursive: true });
 await fs.copyFile(path.join(ROOT, 'src/site.css'), path.join(OUT, 'assets/site.css'));
 await fs.copyFile(path.join(ROOT, 'src/site.js'), path.join(OUT, 'assets/site.js'));
+// Google Search Console HTML-file verification
+await fs.copyFile(path.join(ROOT, 'google03e4defd60651cc9.html'), path.join(OUT, 'google03e4defd60651cc9.html'));
 await fs.writeFile(
   path.join(OUT, 'favicon.svg'),
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#B8ED75"/><text x="32" y="45" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="38" fill="#1B1A17">a</text></svg>`,
