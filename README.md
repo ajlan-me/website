@@ -28,14 +28,13 @@ npm run build:prod   # production: indexable, TODO boxes hidden
 
 Output goes to `dist/`. Production builds stop with an error until `siteUrl` is set in `content/site.mjs`.
 
-## Deploy (Cloudflare Pages)
+## Deploy (GitHub Pages)
 
-1. Create a Pages project from this repo. Build command `npm run build`, output directory `dist`.
-2. In **Settings → Environment variables → Production** add `SITE_ENV = production`. Leave Preview without it.
-   Production deploys are then indexable. Preview deploys send `noindex` (meta tag, `X-Robots-Tag` header and `robots.txt Disallow`).
-3. Add your custom domain and set the same domain as `siteUrl`.
+Live at **https://ajlan-me.github.io/website/**.
 
-GitHub Pages or Netlify work the same way: build with `SITE_ENV=production` only for the public site.
+Push to `main` and GitHub Actions (`.github/workflows/deploy.yml`) builds the site with `SITE_ENV=production` and publishes the finished files to the `site-build` branch, which GitHub Pages serves. Never edit `site-build` by hand; it is overwritten on every publish.
+
+To use your own domain later: set `siteUrl` in `content/site.mjs`, then add the domain under **Settings → Pages → Custom domain**.
 
 ## Google Search Console
 
