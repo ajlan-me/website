@@ -10,9 +10,9 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default {
-  // TODO: your public domain, e.g. "https://ajlan.in" (no trailing slash).
-  // The production build refuses to run until this is set.
-  siteUrl: null,
+  // Public address of the site (no trailing slash). GitHub Pages for now;
+  // change to your own domain later, e.g. "https://ajlan.in".
+  siteUrl: 'https://ajlan-me.github.io/website',
 
   name: 'Ajlan',
   // Shown only in structured data (alternateName), never in headings.

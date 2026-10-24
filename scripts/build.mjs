@@ -25,6 +25,8 @@ if (PROD && !site.siteUrl) {
   process.exit(1);
 }
 const SITE = (site.siteUrl || 'https://preview.invalid').replace(/\/$/, '');
+// Path prefix when hosted in a sub-folder (e.g. GitHub Pages project site → "/website").
+const BASE = new URL(SITE).pathname.replace(/\/$/, '');
 const todos = [];
 
 // ── helpers ────────────────────────────────────────────────────────────────
@@ -775,7 +777,8 @@ for (const pg of pages) {
 const html404 = layout({ ...notFound, path: '/' })
   .replace(/<link rel="canonical"[^>]*>\n/, '')
   .replace(/<meta name="robots" content="[^"]*">/, '<meta name="robots" content="noindex">')
-  .replace(/(href|src|srcset)="(?!https?:|mailto:|#|\/)([^"]+)"/g, '$1="/$2"');
+  .replace(/(href|src|srcset)="(?!https?:|mailto:|#|\/)([^"]+)"/g, `$1="${BASE}/$2"`)
+  .replace(/(srcset="[^"]*)/g, (m) => m.replace(/, (?!https?:|\/)/g, `, ${BASE}/`));
 await fs.writeFile(path.join(OUT, '404.html'), html404);
 
 // Assets
