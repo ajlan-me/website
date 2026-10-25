@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ajlan-me.github.io/website/sitemap.xml

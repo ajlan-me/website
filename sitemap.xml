@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ajlan-me.github.io/website/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-black-t-shirt-neon-sign.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-white-t-shirt-window-light.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/about/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-white-t-shirt-window-light.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/navora/</loc>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/gallery/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-black-t-shirt-neon-sign.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-white-t-shirt-window-light.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/gallery/muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-light-blue-shirt-grey-backdrop.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/gallery/muhammed-ajlan-portrait-black-t-shirt-neon-sign/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-black-t-shirt-neon-sign.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/gallery/muhammed-ajlan-portrait-white-t-shirt-window-light/</loc>
+    <image:image><image:loc>https://ajlan-me.github.io/website/images/muhammed-ajlan-portrait-white-t-shirt-window-light.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/journal/</loc>
+  </url>
+  <url>
+    <loc>https://ajlan-me.github.io/website/contact/</loc>
+  </url>
+</urlset>
